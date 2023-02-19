@@ -37,15 +37,16 @@ export const About = () => {
                   </Link>
                 </li>
                 <li>
+                  <NavLink to="certification" >
+                    <h2 >Certification</h2>
+                  </NavLink>
+                </li>
+                <li>
                   <NavLink to="complementary">
                     <h2>Complementary education</h2>
                   </NavLink>
                 </li>
-                <li>
-                  <NavLink to="certification">
-                    <h2>Certification</h2>
-                  </NavLink>
-                </li>
+                
               </ul>
             </nav>
             <div className=" mt-5 w-full">

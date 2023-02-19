@@ -1,6 +1,8 @@
 import React from "react";
 import PhotoPer from "../accest/Img/Photo_perfil.png";
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
+import { BasicModal } from "./BasicModal";
 
 export const Home = () => {
   return (
@@ -23,17 +25,17 @@ export const Home = () => {
                 in Back-End
               </p>
               <div className="flex justify-start gap-4 text-[#434752] mt-5">
-                <button className="bg-[#D9D9D9] p-3 rounded-lg hover:bg-[#4364c0] hover:text-[#D9D9D9] transition-all">
+                <Link to="https://drive.google.com/file/d/17b9L9Niq7JwN7DE-mRwkqhVq0_02kT1b/view?usp=share_link" target="_blank"  className="bg-[#D9D9D9] p-3 rounded-lg hover:bg-[#4364c0] hover:text-[#D9D9D9] transition-all">
                   Dowlanded Cv
-                </button>
-                <button className="bg-[#D9D9D9] p-3 rounded-lg hover:bg-[#4364c0] hover:text-[#D9D9D9] transition-all">
-                  Contactame{" "}
-                </button>
+                </Link>
+                <Link  className="bg-[#D9D9D9] p-3 rounded-lg hover:bg-[#4364c0] hover:text-[#D9D9D9] transition-all">
+                <BasicModal />
+                </Link>
               </div>
               <div className="mt-14 h-1 w-full bg-white"></div>
             </div>
             <div className=" flex justify-center items-end     ">
-              <img className="" src={PhotoPer} alt="" />
+              <img className="select-none" src={PhotoPer} alt="" />
             </div>
           </div>
         </div>

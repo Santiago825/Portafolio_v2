@@ -25,16 +25,16 @@ export const PortafolioContent = () => {
         <div className="bg-black absolute rounded-xl top-0 w-full h-full  z-50 transition-all opacity-0 hover:opacity-70  flex flex-col justify-end">
           <div className="text-white p-3 text-start ">
             <span className="text-xl uppercase font-bold">
-              Pagina personal{" "}
+            personal page
             </span>
-            <h2 className="mb-4">Descritpcion</h2>
+            <h2 className="mb-4">HTML, React, Css, Tailwind,React Router</h2>
             <div className="flex gap-3">
-              <button className=" text-black bg-gray-300 rounded-xl text-3xl p-1  ">
+              <Link to="https://github.com/Santiago825/Portafolio_v2" target="_blank"  className=" text-black bg-gray-300 rounded-xl text-3xl p-1  ">
                 <RiLinkM />
-              </button>
-              <button className=" text-black bg-gray-300 rounded-xl text-3xl p-1  ">
+              </Link>
+              <Link to="https://github.com/Santiago825/Portafolio_v2" target="_blank" className=" text-black bg-gray-300 rounded-xl text-3xl p-1  ">
                 <RiGithubFill />
-              </button>
+              </Link>
             </div>
           </div>
         </div>
@@ -51,16 +51,16 @@ export const PortafolioContent = () => {
         <div className="bg-black absolute rounded-xl top-0 w-full h-full  z-50 transition-all opacity-0 hover:opacity-70  flex flex-col justify-end">
           <div className="text-white p-3 text-start ">
             <span className="text-xl uppercase font-bold">
-              Pagina personal{" "}
+              Kimi Decoraciones {" "}
             </span>
-            <h2 className="mb-4">Descritpcion</h2>
+            <h2 className="mb-4">HTML, React, Css, Bootstrap,React Router</h2>
             <div className="flex gap-3">
-              <button className=" text-black bg-gray-300 rounded-xl text-3xl p-1  ">
+              <Link to="https://github.com/Santiago825/Kimi_Decoraciones" target="_blank" className=" text-black bg-gray-300 rounded-xl text-3xl p-1  ">
                 <RiLinkM />
-              </button>
-              <button className=" text-black bg-gray-300 rounded-xl text-3xl p-1  ">
+              </Link>
+              <Link to="https://github.com/Santiago825/Kimi_Decoraciones" target="_blank" className=" text-black bg-gray-300 rounded-xl text-3xl p-1  ">
                 <RiGithubFill />
-              </button>
+              </Link>
             </div>
           </div>
         </div>
@@ -77,16 +77,16 @@ export const PortafolioContent = () => {
         <div className="bg-black absolute rounded-xl top-0 w-full h-full  z-50 transition-all opacity-0 hover:opacity-70  flex flex-col justify-end">
           <div className="text-white p-3 text-start ">
             <span className="text-xl uppercase font-bold">
-              Pagina personal{" "}
+            Dashboard of a restaurant
             </span>
-            <h2 className="mb-4">Descritpcion</h2>
+            <h2 className="mb-4">Html, React, TailWind</h2>
             <div className="flex gap-3">
-              <button className=" text-black bg-gray-300 rounded-xl text-3xl p-1  ">
+              <Link to="https://github.com/Santiago825/DashBoar_Restaurante" target="_blank" className=" text-black bg-gray-300 rounded-xl text-3xl p-1  ">
                 <RiLinkM />
-              </button>
-              <button className=" text-black bg-gray-300 rounded-xl text-3xl p-1  ">
+              </Link>
+              <Link to="https://github.com/Santiago825/DashBoar_Restaurante" target="_blank" className=" text-black bg-gray-300 rounded-xl text-3xl p-1  ">
                 <RiGithubFill />
-              </button>
+              </Link>
             </div>
           </div>
         </div>
@@ -103,16 +103,16 @@ export const PortafolioContent = () => {
         <div className="bg-black absolute rounded-xl top-0 w-full h-full  z-50 transition-all opacity-0 hover:opacity-70  flex flex-col justify-end">
           <div className="text-white p-3 text-start ">
             <span className="text-xl uppercase font-bold">
-              Pagina personal{" "}
+              Pokedex with Login{" "}
             </span>
-            <h2 className="mb-4">Descritpcion</h2>
+            <h2 className="mb-4">PhP, Html, Css, JavaScript, Bootstrap</h2>
             <div className="flex gap-3">
-              <button className=" text-black bg-gray-300 rounded-xl text-3xl p-1  ">
+              <Link to="https://github.com/Santiago825/Pokedex" target="_blank" className=" text-black bg-gray-300 rounded-xl text-3xl p-1  ">
                 <RiLinkM />
-              </button>
-              <button className=" text-black bg-gray-300 rounded-xl text-3xl p-1  ">
+              </Link>
+              <Link to="https://github.com/Santiago825/Pokedex" target="_blank" className=" text-black bg-gray-300 rounded-xl text-3xl p-1  ">
                 <RiGithubFill />
-              </button>
+              </Link>
             </div>
           </div>
         </div>
@@ -129,16 +129,16 @@ export const PortafolioContent = () => {
         <div className="bg-black absolute rounded-xl top-0 w-full h-full  z-50 transition-all opacity-0 hover:opacity-70  flex flex-col justify-end">
           <div className="text-white p-3 text-start ">
             <span className="text-xl uppercase font-bold">
-              Pagina personal{" "}
+              Personal Page Version 1
             </span>
-            <h2 className="mb-4">Descritpcion</h2>
+            <h2 className="mb-4">Html, JavaScript, Css, BootsTrap </h2>
             <div className="flex gap-3">
-              <button className=" text-black bg-gray-300 rounded-xl text-3xl p-1  ">
+              <Link to="https://santiagoorjuela.netlify.app/" target="_blank" className=" text-black bg-gray-300 rounded-xl text-3xl p-1  ">
                 <RiLinkM />
-              </button>
-              <button className=" text-black bg-gray-300 rounded-xl text-3xl p-1  ">
+              </Link>
+              <Link to="https://github.com/Santiago825/PortafolioSO.github.io" target="_blank" className=" text-black bg-gray-300 rounded-xl text-3xl p-1  ">
                 <RiGithubFill />
-              </button>
+              </Link>
             </div>
           </div>
         </div>

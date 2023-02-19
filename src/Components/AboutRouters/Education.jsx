@@ -13,8 +13,8 @@ export const Education = () => {
           <img src={Autonoma} className="w-28" alt="imgen uni autonoma" />
         </div>
         <div className="col-span-3 text-start ">
-          <h1 className="font-bold">Ingeniero de Sistemas</h1>
-          <h2>Universidad Autónoma de Colombia</h2>
+          <h1 className="font-bold">Systems Engineer</h1>
+          <h2>Autonomous University of Colombia</h2>
           <span>2022, Bogotá</span>
         </div>
       </div>
@@ -24,7 +24,7 @@ export const Education = () => {
           <img src={Mision} className="w-28" alt="imgen uni autonoma" />
         </div>
         <div className="col-span-3 text-start ">
-          <h1>Graduated of the Misión Tic 2022 program</h1>
+          <h1 className="font-bold">Graduated of the Misión Tic 2022 program</h1>
           <h2>Technological University of Pereira </h2>
           <span>2022, Bogotá</span>
         </div>

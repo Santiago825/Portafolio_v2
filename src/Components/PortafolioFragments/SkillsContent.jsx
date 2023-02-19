@@ -18,13 +18,13 @@ export const SkillsContent = () => {
           <SideBarSkills data={hardSkill} />
         </div>
       </div>
-      <div className="">
+      <div className="mb-10">
         <div className="flex flex-wrap mb-8  gap-2">
-          <h1 className="text-xl font-bold">Hard Skills</h1>
+          <h1 className="text-xl font-bold">Other Skills</h1>
           <div className="bg-black w-full h-1"></div>
         </div>
         <div className="pr-32 flex flex-wrap">
-          <SideBarSkills data={hardSkill} />
+          <SideBarSkills data={otherSkill} />
         </div>
       </div>
     </div>

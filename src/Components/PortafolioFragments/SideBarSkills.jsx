@@ -24,7 +24,7 @@ export const SideBarSkills = (props) => {
       {data.map((elemts,i) => (
         <SwiperSlide className="flex flex-wrap " key={i}>
            
-          <img src={elemts.img}  className="w-28 " alt="" />
+          <img src={elemts.img}  className="w-32 " alt="" />
         </SwiperSlide>
       ))}
       ...

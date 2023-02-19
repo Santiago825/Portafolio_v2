@@ -1,6 +1,7 @@
-import React from "react";
-import { NavLink } from "react-router-dom";
-import Logo from "../accest/Img/logo.png"
+import React, { useState } from "react";
+import { Link, NavLink } from "react-router-dom";
+import Logo from "../accest/Img/logo.png";
+import { BasicModal } from "./BasicModal";
 
 import {
   RiHome3Line,
@@ -12,11 +13,11 @@ import {
   RiLightbulbFlashLine,
 } from "react-icons/ri";
 
-function colorItem(){
-  const theme={
-    color:"white",
-    background:"#4364c0",
-  }
+function colorItem() {
+  const theme = {
+    color: "white",
+    background: "#4364c0",
+  };
   return theme;
 }
 
@@ -44,7 +45,6 @@ export const Navbar = () => {
               <NavLink
                 to="/about"
                 className="flex items-center gap-3 text-gray-800  p-4 border-l rounded-lg border-blue-900 hover:text-2xl hover:bg-[#4364c0] hover:text-white  transition-all"
-                
               >
                 <RiShieldUserLine className="text-2xl font-bold" />
                 <h2>About</h2>
@@ -64,10 +64,10 @@ export const Navbar = () => {
             <li className="  justify-center font-bold">
               <NavLink
                 href="#"
-                className="flex  items-center gap-3 text-gray-800  p-4 border-l rounded-lg border-blue-900 hover:text-2xl hover:bg-[#4364c0] hover:text-white  transition-all"
+                className="flex  items-center gap-3 text-gray-800  p-4 border-l rounded-lg border-blue-900 hover:text-xl hover:bg-[#4364c0] hover:text-white  transition-all"
               >
-                <RiLightbulbFlashLine className="text-2xl font-bold" />
-                <h2>Skilss</h2>
+                
+                <BasicModal />
               </NavLink>
               <div className="mt-4 w-full h-1 bg-gray-400"></div>
             </li>
@@ -75,9 +75,15 @@ export const Navbar = () => {
         </nav>
 
         <div className="bg-gray-200 mt-8 px-4 py-4 flex justify-center transition-all gap-5 text-5xl rounded-2xl">
-          <RiLinkedinBoxFill className="text-blue-900 hover:w-20 transition-all" />
-          <RiGithubFill className="hover:w-20 transition-all" />
-          <RiWhatsappFill className="text-green-600 hover:w-20 transition-all" />
+          <Link to="https://www.linkedin.com/in/santiago-orjuela-sierra/" target="_blank">
+          <RiLinkedinBoxFill  className="text-blue-900 hover:w-16 transition-all" />
+          </Link>
+          <Link to="https://github.com/Santiago825?tab=repositories" target="_blank">
+          <RiGithubFill className="hover:w-16 transition-all" />
+          </Link>
+          <Link to="https://api.whatsapp.com/send?phone=573016337950" target="_blank">
+          <RiWhatsappFill className="text-green-600 hover:w-16 transition-all" />
+          </Link>
         </div>
       </div>
     </div>
