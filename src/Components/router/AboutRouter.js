@@ -13,6 +13,7 @@ export const AboutRouter = () => {
 
     <div>
       <Routes >
+        <Route exact path="/" element={<Education />}></Route>
         <Route exact path="/education" element={<Education />}></Route>
         <Route exact path="/complementary" element={<Complementary />}></Route>
 

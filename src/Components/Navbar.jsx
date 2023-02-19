@@ -1,5 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import Logo from "../accest/Img/logo.png"
 
 import {
   RiHome3Line,
@@ -11,12 +12,19 @@ import {
   RiLightbulbFlashLine,
 } from "react-icons/ri";
 
+function colorItem(){
+  const theme={
+    color:"white",
+    background:"#4364c0",
+  }
+  return theme;
+}
+
 export const Navbar = () => {
   return (
     <div className="bg-white w-60 fixed left-0 top-16 justify-center  h-full p-5 flex-col drop-shadow-xl   z-50 ">
       <div className="mt-7 flex flex-col gap-5 uppercase  ">
-        <h2 className="text-lg font-bold">web Developer</h2>
-        <h2 className="text-base">Santiago Orjuela Sierra</h2>
+        <img src={Logo} alt="Logo" />
       </div>
 
       <div>
@@ -36,6 +44,7 @@ export const Navbar = () => {
               <NavLink
                 to="/about"
                 className="flex items-center gap-3 text-gray-800  p-4 border-l rounded-lg border-blue-900 hover:text-2xl hover:bg-[#4364c0] hover:text-white  transition-all"
+                
               >
                 <RiShieldUserLine className="text-2xl font-bold" />
                 <h2>About</h2>
@@ -44,7 +53,7 @@ export const Navbar = () => {
             </li>
             <li className="  justify-center font-bold">
               <NavLink
-                href="#"
+                to="portafolio"
                 className="flex items-center gap-3 text-gray-800  p-4 border-l rounded-lg border-blue-900 hover:text-2xl hover:bg-[#4364c0] hover:text-white  transition-all"
               >
                 <RiBook2Line className="text-2xl font-bold" />

@@ -14,6 +14,7 @@ export const About = () => {
         exit={{ opacity: 0, transition: { duration: 0.2 } }}
       >
         <div className="pl-16">
+          {/* Title and description */}
           <div className="flex flex-wrap w-full  text-start   py-10  mt-10 gap-6 ">
             <h1 className="text-5xl font-bold">About me</h1>
             <p className="pr-28">
@@ -26,7 +27,7 @@ export const About = () => {
               construction of set goals and objectives.
             </p>
           </div>
-
+          {/* menu  */}
           <div className="  w-full flex mt-2 pr-14 flex-wrap ">
             <nav className="bg-white w-full drop-shadow-lg text-black  py-3 rounded-xl  ">
               <ul className="flex justify-around">

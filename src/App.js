@@ -41,8 +41,8 @@ function App() {
       <div >
         <Router>
           <Navbar className="border" />
-          <div style={modeTheme()} className="  pl-60 top-16   w-full h-full fixed    ">
-            <AppRouter />
+          <div style={modeTheme()} className="  pl-60 pt-16   w-full h-full     ">
+            <AppRouter className="" />
           </div>
         </Router>
       </div>
