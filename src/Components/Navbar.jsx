@@ -23,8 +23,8 @@ function colorItem(){
 export const Navbar = () => {
   return (
     <div className="bg-white w-60 fixed left-0 top-16 justify-center  h-full p-5 flex-col drop-shadow-xl   z-50 ">
-      <div className="mt-7 flex flex-col gap-5 uppercase  ">
-        <img src={Logo} alt="Logo" />
+      <div className="mt-7 flex flex-col gap-5 uppercase  items-center   ">
+        <img className="w-28" src={Logo} alt="Logo" />
       </div>
 
       <div>
