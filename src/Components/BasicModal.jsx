@@ -40,7 +40,7 @@ export function BasicModal() {
         nombre,
         email,
         mensaje
-      },"YgLm4VyUJuOijCbm")
+      },"YgLm4VyUJuOijCbm-")
       .then((res) => {
         handleClose();
         Swal.fire(
