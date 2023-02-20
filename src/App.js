@@ -13,13 +13,15 @@ function App() {
   const ligthTheme={
     color:"#434752",
     background:"white",
-    transition: "opacity 5s"  
+    transition: "opacity 5s",
+    height:"100vh"
     
   }
   const darkTheme={
     color:"white",
     background:"#434752",
-    transition: "opacity 5s"  
+    transition: "opacity 5s",
+    height:"100vh"  
   }
   function modeTheme(){
     if(!darkMode){
