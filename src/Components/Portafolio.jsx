@@ -34,7 +34,7 @@ export const Portafolio = () => {
             </ul>
           </nav>
         </div>
-        <div className=" mt-5 w-full ">
+        <div className=" mt-5 w-full pb-16 ">
           <PortafolioRouter />
         </div>
       </div>

@@ -13,12 +13,12 @@ import { RiLinkM , RiGithubFill} from "react-icons/ri";
 
 export const PortafolioContent = () => {
   return (
-    <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-8  md:mx-16 p-4 mb-5   ">
+    <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-8  md:mx-16 lg:p-4 p-16 mb-5   ">
       {/* card 1 */}
       <div className=" h-52 rounded-xl relative shadow-2xl select-none z-10">
         <div className=" w-full h-full  bg-cover bg-center ">
           <img
-            className=" h-full bg-cover  bg-center rounded-xl"
+            className=" h-full w-full bg-cover  bg-center rounded-xl"
             src={port1}
             alt=""
           />
@@ -44,7 +44,7 @@ export const PortafolioContent = () => {
       <div className=" h-52 rounded-xl relative shadow-2xl select-none z-10">
         <div className=" w-full h-full  bg-cover bg-center ">
           <img
-            className=" h-full bg-cover  bg-center rounded-xl"
+            className=" h-full bg-cover w-full  bg-center rounded-xl"
             src={Kimi}
             alt=""
           />
@@ -70,7 +70,7 @@ export const PortafolioContent = () => {
       <div className=" h-52 rounded-xl relative shadow-2xl select-none z-10">
         <div className=" w-full h-full  bg-cover bg-center ">
           <img
-            className=" h-full bg-cover  bg-center rounded-xl"
+            className=" h-full bg-cover w-full bg-center rounded-xl"
             src={Dashboard}
             alt=""
           />
@@ -96,7 +96,7 @@ export const PortafolioContent = () => {
       <div className=" h-52 rounded-xl relative shadow-2xl select-none z-10">
         <div className=" w-full h-full  bg-cover bg-center ">
           <img
-            className=" h-full bg-cover  bg-center rounded-xl"
+            className=" h-full bg-cover w-full  bg-center rounded-xl"
             src={villa}
             alt=""
           />
@@ -119,10 +119,10 @@ export const PortafolioContent = () => {
         </div>
       </div>
       {/* card 5 */}
-      <div className=" h-52 rounded-xl relative shadow-2xl select-none z-10">
+      <div className=" h-52 rounded-xl relative shadow-2xl  select-none z-10">
         <div className=" w-full h-full  bg-cover bg-center ">
           <img
-            className=" h-full bg-cover  bg-center rounded-xl"
+            className=" h-full bg-cover w-full  bg-center rounded-xl"
             src={pokedex}
             alt=""
           />
@@ -148,7 +148,7 @@ export const PortafolioContent = () => {
       <div className=" h-52 rounded-xl relative shadow-2xl select-none">
         <div className=" w-full h-full  bg-cover bg-center ">
           <img
-            className=" h-full bg-cover  bg-center rounded-xl"
+            className=" h-full bg-cover w-full  bg-center rounded-xl"
             src={portV1}
             alt=""
           />

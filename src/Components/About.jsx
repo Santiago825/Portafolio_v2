@@ -12,7 +12,7 @@ export const About = () => {
         animate={{ opacity: 1 }}
         exit={{ opacity: 0, transition: { duration: 0.2 } }}
       >
-        <div className="lg:pl-16 px-5">
+        <div className="lg:pl-16 px-5  ">
           {/* Title and description */}
           <div className="flex flex-wrap w-full  text-start   py-10  mt-10 gap-6 ">
             <h1 className="text-5xl font-bold  ">About me</h1>
@@ -53,7 +53,7 @@ export const About = () => {
                 </li>
               </ul>
             </nav>
-            <div className=" mt-5 w-full mb-5">
+            <div className=" mt-5 w-full mb-20">
               <AboutRouter />
             </div>
           </div>
