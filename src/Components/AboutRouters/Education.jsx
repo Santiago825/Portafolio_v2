@@ -6,7 +6,7 @@ import Mision from "../../accest/Img/mision.png";
 export const Education = () => {
   return (
     //Contenedor cards
-    <div className=" grid grid-cols-3 gap-3">
+    <div className=" grid md:grid-cols-3 gap-3">
       {/* Card 1 */}
       <div className="grid grid-cols-4 py-4 bg-white text-black items-center border border-xl rounded-lg h-50">
         <div className="col-span-1 flex items-center px-3   ">

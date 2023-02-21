@@ -16,15 +16,25 @@ import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 
 export const SliderPhotos = () => {
+  const whenNotMobileDevice = (titulo, claseTitulo) => {
+    if(!/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
+        return 3
+    }
+    else{
+      return 1
+    }
+}
+
   return (
     <Swiper
+    
       // install Swiper modules
       modules={[Navigation, Pagination, Scrollbar, A11y]}
       spaceBetween={50}
-      slidesPerView={3}
+      slidesPerView={whenNotMobileDevice()}
       navigation
       pagination={{ clickable: true }}
-      className="select-none"
+      className="select-none "
     
       onSwiper={(swiper) => console.log(swiper)}
       onSlideChange={() => console.log("slide change")}

@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 export const Complementary = () => {
   return (
-    <div className=" grid grid-cols-3 gap-9 mb-10">
+    <div className=" grid lg:grid-cols-3 md:grid-cols-2 gap-9 mb-10">
       {/* Card 5 */}
       <div className=" px-4  py-4 bg-blue-50 text-black items-start border border-xl rounded-lg h-50">
         <div className="col-span-2 text-start flex flex-wrap gap-2 bg-slate-200 rounded-lg p-2  ">

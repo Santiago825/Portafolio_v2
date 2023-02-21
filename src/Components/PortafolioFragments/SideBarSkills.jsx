@@ -13,7 +13,7 @@ export const SideBarSkills = (props) => {
     <Swiper
       // install Swiper modules
       modules={[Navigation, Pagination, Scrollbar, A11y]}
-      spaceBetween={0}
+      spaceBetween={10}
       slidesPerView={5}
       navigation
       pagination={{ clickable: true }}
@@ -24,7 +24,7 @@ export const SideBarSkills = (props) => {
       {data.map((elemts,i) => (
         <SwiperSlide className="flex flex-wrap " key={i}>
            
-          <img src={elemts.img}  className="w-32 " alt="" />
+          <img src={elemts.img}  className="w-48 lg:w-36 " alt="" />
         </SwiperSlide>
       ))}
       ...

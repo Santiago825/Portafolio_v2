@@ -1,9 +1,9 @@
-import  React ,{useState} from "react";
+import React, { useEffect, useState } from "react";
 import Box from "@mui/material/Box";
 import Button from "@mui/material/Button";
 import { Typography, Modal, TextField, FormControl } from "@mui/material";
 import emailjs from "@emailjs/browser";
-import Swal from 'sweetalert2'
+import Swal from "sweetalert2";
 
 import { RiLightbulbFlashLine } from "react-icons/ri";
 
@@ -16,12 +16,11 @@ const style = {
   bgcolor: "background.paper",
   border: "2px solid #000",
   boxShadow: 24,
-  p: 4,
-  transition: "all 0.5s ease",
+  p: 5,
+  transition:"opacity 4s"
 };
 
 export function BasicModal() {
-
   const [nombre, setNombre] = useState("");
   const [email, setEmail] = useState("");
   const [mensaje, setMensaje] = useState("");
@@ -29,34 +28,33 @@ export function BasicModal() {
   const [open, setOpen] = useState(false);
   const handleOpen = () => setOpen(true);
   const handleClose = () => setOpen(false);
-  
-
 
 
   function enviarEmail(e) {
     e.preventDefault();
     emailjs
-      .send("service_upx542o", "template_xm82k1u",{
-        nombre,
-        email,
-        mensaje
-      },"YgLm4VyUJuOijCbm-")
+      .send(
+        "service_upx542o",
+        "template_xm82k1u",
+        {
+          nombre,
+          email,
+          mensaje,
+        },
+        "YgLm4VyUJuOijCbm-"
+      )
       .then((res) => {
         handleClose();
-        Swal.fire(
-          'Message sent successfully',
-          '',
-          'success'
-        )
+        Swal.fire("Message sent successfully", "", "success");
         console.log(res);
       })
       .catch((e) => {
         handleClose();
         Swal.fire(
-          'Error message when sending',
-          'Refresh the page and try again',
-          'error'
-        )
+          "Error message when sending",
+          "Refresh the page and try again",
+          "error"
+        );
         console.log(e);
       });
   }
@@ -65,38 +63,42 @@ export function BasicModal() {
     <div>
       <div className="flex items-center gap-3" onClick={handleOpen}>
         <RiLightbulbFlashLine className="text-2xl font-bold " />
-        <button className="" >
-          Contact me
-        </button>
+        <button className="">Contact me</button>
       </div>
 
       <Modal
+
         open={open}
         onClose={handleClose}
         aria-labelledby="modal-modal-title"
         aria-describedby="modal-modal-description"
+        
       >
-        <Box sx={style} className="flex flex-col gap-3">
+        <Box sx={style}  className="flex flex-col gap-3 ">
           <Typography id="modal-modal-title" variant="h6" component="h2">
             Contact Form
           </Typography>
           <Typography id="modal-modal-description" sx={{ mt: 2 }}>
             Enter the information to contact us 😀
           </Typography>
-          <form onSubmit={enviarEmail}   className="flex flex-col gap-4 mt-4">
+          <form onSubmit={enviarEmail} className="flex flex-col gap-4 mt-4">
             <TextField
               required
               id="outlined-required"
               label="Your name"
               placeholder="pepito perez"
-              onChange={e=>{setNombre(e.target.value)}}
+              onChange={(e) => {
+                setNombre(e.target.value);
+              }}
             />
             <TextField
               required
               id="outlined-required"
               label="Your Email "
               placeholder="pepito@mail.com"
-              onChange={e=>{setEmail(e.target.value)}}
+              onChange={(e) => {
+                setEmail(e.target.value);
+              }}
             />
             <TextField
               id="outlined-multiline-static"
@@ -104,7 +106,9 @@ export function BasicModal() {
               multiline
               rows={4}
               placeholder="We want to work together"
-              onChange={e=>{setMensaje(e.target.value)}}
+              onChange={(e) => {
+                setMensaje(e.target.value);
+              }}
             />
             <div className=" flex justify-end gap-4">
               <button
@@ -115,8 +119,8 @@ export function BasicModal() {
                 Cancel
               </button>
               <button
-              type="submit"
-              onClick={enviarEmail}
+                type="submit"
+                onClick={enviarEmail}
                 className="w-20 text-white  bg-blue-500 rounded-xl p-2 text-center"
                 variant="contained"
               >

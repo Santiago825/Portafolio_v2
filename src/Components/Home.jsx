@@ -14,12 +14,12 @@ export const Home = () => {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         exit={{ opacity: 0, transition: { duration: 0.2 } }}
-        className=" h-full    "
+       
       >
 
-        <div style={{height:"92vh"}} className="">
-          <div className=" w-full grid grid-cols-2  h-full  ">
-            <div className="pl-14 text-start font-bold  flex flex-col gap-3 justify-center ">
+        <div style={{height:"92vh"}} className="w-full ">
+          <div className="relative lg:relative w-full grid lg:grid-cols-2  h-full bg-blue  ">
+            <div className="lg:pl-14 text-start font-bold px-5 lg:p-0  flex flex-col gap-3 justify-center z-10  ">
               <h1 className="text-9xl font-extrabold">HI</h1>
               <p className="text-2xl font-serif">
                 I’m Engineering system Santiago orjuela
@@ -42,7 +42,7 @@ export const Home = () => {
               </div>
               <div className="mt-14 h-1 w-full bg-white"></div>
             </div>
-            <div className=" flex justify-center align-middle     ">
+            <div className="absolute lg:relative flex justify-center align-middle  w-full opacity-20 lg:opacity-100   ">
               <img className="select-none" src={PhotoPer} alt="" />
             </div>
           </div>
