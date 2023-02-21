@@ -18,8 +18,8 @@ export const SideBarSkills = (props) => {
       navigation
       pagination={{ clickable: true }}
       className="select-none"
-      onSwiper={(swiper) => console.log(swiper)}
-      onSlideChange={() => console.log("slide change")}
+      // onSwiper={(swiper) => console.log(swiper)}
+      // onSlideChange={() => console.log("slide change")}
     >
       {data.map((elemts,i) => (
         <SwiperSlide className="flex flex-wrap " key={i}>

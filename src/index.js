@@ -4,8 +4,20 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+
+const darkTheme={
+  color:"white",
+  background:"#434752",
+  transition: "opacity 5s",
+  height:"100vh"  
+}
+
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
+  
+
+  
   <React.StrictMode>
     <App />
   </React.StrictMode>

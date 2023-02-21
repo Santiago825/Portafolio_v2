@@ -3,9 +3,6 @@ import PhotoPer from "../accest/Img/Photo_perfil.png";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import { BasicModal } from "./BasicModal";
-import emailjs from "@emailjs/browser";
-import { Typography, Modal, TextField, FormControl } from "@mui/material";
-import Box from "@mui/material/Box";
 
 export const Home = () => {
   return (

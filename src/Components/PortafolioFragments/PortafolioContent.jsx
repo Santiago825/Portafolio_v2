@@ -13,9 +13,9 @@ import { RiLinkM , RiGithubFill} from "react-icons/ri";
 
 export const PortafolioContent = () => {
   return (
-    <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-8  md:mx-16 p-4 mb-5  ">
+    <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-8  md:mx-16 p-4 mb-5   ">
       {/* card 1 */}
-      <div className=" h-52 rounded-xl relative shadow-2xl select-none ">
+      <div className=" h-52 rounded-xl relative shadow-2xl select-none z-10">
         <div className=" w-full h-full  bg-cover bg-center ">
           <img
             className=" h-full bg-cover  bg-center rounded-xl"
@@ -41,7 +41,7 @@ export const PortafolioContent = () => {
         </div>
       </div>
       {/* card 2 */}
-      <div className=" h-52 rounded-xl relative shadow-2xl select-none ">
+      <div className=" h-52 rounded-xl relative shadow-2xl select-none z-10">
         <div className=" w-full h-full  bg-cover bg-center ">
           <img
             className=" h-full bg-cover  bg-center rounded-xl"
@@ -67,7 +67,7 @@ export const PortafolioContent = () => {
         </div>
       </div>
       {/* card 3 */}
-      <div className=" h-52 rounded-xl relative shadow-2xl select-none">
+      <div className=" h-52 rounded-xl relative shadow-2xl select-none z-10">
         <div className=" w-full h-full  bg-cover bg-center ">
           <img
             className=" h-full bg-cover  bg-center rounded-xl"
@@ -93,7 +93,7 @@ export const PortafolioContent = () => {
         </div>
       </div>
       {/* card 4 */}
-      <div className=" h-52 rounded-xl relative shadow-2xl select-none">
+      <div className=" h-52 rounded-xl relative shadow-2xl select-none z-10">
         <div className=" w-full h-full  bg-cover bg-center ">
           <img
             className=" h-full bg-cover  bg-center rounded-xl"
@@ -119,7 +119,7 @@ export const PortafolioContent = () => {
         </div>
       </div>
       {/* card 5 */}
-      <div className=" h-52 rounded-xl relative shadow-2xl select-none">
+      <div className=" h-52 rounded-xl relative shadow-2xl select-none z-10">
         <div className=" w-full h-full  bg-cover bg-center ">
           <img
             className=" h-full bg-cover  bg-center rounded-xl"

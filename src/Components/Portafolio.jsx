@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { NavLink, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { RiBriefcase2Line, RiLightbulbFlashLine } from "react-icons/ri";
 import { PortafolioRouter } from "./router/PortafolioRouter";
 

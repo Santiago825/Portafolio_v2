@@ -10,6 +10,8 @@ import { useState } from 'react';
 function App() {
 
   const [darkMode,setDarkMode]=useState(false)
+  const [menu,setMenu]=useState(false);
+  
   const ligthTheme={
     color:"#434752",
     background:"white",
@@ -34,17 +36,24 @@ function App() {
     darkMode?setDarkMode(false):setDarkMode(true)
  
   }
+  function handleMenu(menu){
+    setMenu(menu)
+    
+  }
+  
+
+ 
 
   return (
     
-    <div className="App top-0  bg-red-600">
-        <BarTop style={modeTheme()} Mode={onModeTheme} />
+    <div className="App  ">
+        <BarTop  Mode={onModeTheme}  handleMenu={handleMenu}  />
 
       <div >
         <Router>
-          <Navbar className="border " />
-          <div style={modeTheme()} className="  lg:pl-60 pt-16   w-full h-full     ">
-            <AppRouter className="" />
+          <Navbar className="border" onMenu={menu} />
+          <div  className="  lg:pl-60 pt-16   w-full h-full">
+            <AppRouter  className="" />
           </div>
         </Router>
       </div>
