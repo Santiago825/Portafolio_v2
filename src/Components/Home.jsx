@@ -27,7 +27,7 @@ export const Home = () => {
               </p>
               <div className="flex justify-start gap-4 text-[#434752] mt-5">
                 <Link
-                  to="https://drive.google.com/file/d/17b9L9Niq7JwN7DE-mRwkqhVq0_02kT1b/view?usp=share_link"
+                  to="https://drive.google.com/file/d/1aTmvVfwGciz4frqENPpfdw_U6Vj7yd1R/view"
                   target="_blank"
                   className="bg-[#D9D9D9] p-3 rounded-lg hover:bg-[#4364c0] hover:text-[#D9D9D9] transition-all"
                 >
