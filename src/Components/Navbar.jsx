@@ -23,7 +23,7 @@ export const Navbar = (props) => {
     <div>
       <div
         id="ContenedorMenu"
-        className={`bg-white lg:w-60  fixed lg:left-0   top-16 justify-center  h-full p-5 flex-col drop-shadow-xl z-20  lg:visible overflow-scroll transition-all ${
+        className={`lg:w-60  fixed lg:left-0   top-16 justify-center  h-full p-5 flex-col drop-shadow-xl z-20  lg:visible overflow-scroll transition-all ${
           menu ? "left-0" : "-left-64 "
         } 	 `}
       >
@@ -47,6 +47,7 @@ export const Navbar = (props) => {
                 </NavLink>
                 <div className="mt-4 w-full h-1 bg-gray-400"></div>
               </li>
+       
               <li className="  justify-center font-bold">
                 <NavLink
                   to="/about"

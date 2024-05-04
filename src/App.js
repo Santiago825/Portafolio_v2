@@ -15,14 +15,14 @@ function App() {
   const ligthTheme={
     color:"#434752",
     background:"white",
-    transition: "opacity 5s",
-    
+    transition: "opacity 5s"
     
   }
   const darkTheme={
     color:"white",
     background:"#434752",
-    transition: "opacity 5s",
+    transition: "opacity 5s"
+    
       
   }
   function modeTheme(){

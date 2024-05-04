@@ -22,8 +22,7 @@ export const Home = () => {
                 I’m Engineering system Santiago orjuela
               </p>
               <p className="text-xl ">
-                Front-End Developer emphasized in web environments with diverse
-                in Back-End
+              Full Stack specialized in Frontend
               </p>
               <div className="flex justify-start gap-4 text-[#434752] mt-5">
                 <Link
@@ -39,8 +38,8 @@ export const Home = () => {
               </div>
               <div className="mt-14 h-1 w-full bg-white"></div>
             </div>
-            <div className="absolute lg:relative flex justify-center align-middle  w-full opacity-20 lg:opacity-100   ">
-              <img className="select-none" src={PhotoPer} alt="" />
+            <div className="absolute  lg:relative h-full flex justify-center align-middle  w-full opacity-20 lg:opacity-100   ">
+              <img className="select-none " src={PhotoPer} alt="" />
             </div>
           </div>
         </div>

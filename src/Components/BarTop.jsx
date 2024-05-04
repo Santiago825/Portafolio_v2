@@ -1,17 +1,19 @@
 import React, { useEffect, useState } from "react";
 import { MaterialUISwitch } from "./MaterialUISwitch";
 import { RiMenuLine } from "react-icons/ri";
+import { colors } from "@mui/material";
 
 export const BarTop = (props) => {
   const [menuMovil, setMenuMovil] = useState(true);
 
   function handleMenu() {
+    
     setMenuMovil(!menuMovil);
     return props.handleMenu(menuMovil);
   }
 
   return (
-    <div className="bg-white fixed w-full h-16 border px-7  z-50 select-none">
+    <div className="fixed w-full h-16 border px-7  z-50 select-none">
       <div className="flex flex-wrap font-bold  h-full items-center  justify-between   lg:text-2xl">
         <div
           onClick={handleMenu}
@@ -20,8 +22,8 @@ export const BarTop = (props) => {
           <RiMenuLine />
         </div>
 
-        <h2 className=" lg:text-3xl text-gray-700 hidden lg:flex">JS</h2>
-        <h2>Desarrollador Web</h2>
+        <h2 className=" lg:text-3xl  hidden lg:flex">JS</h2>
+        <h2 className="text-2xl font-serif">Desarrollador Web</h2>
         <MaterialUISwitch onClick={props.Mode} />
       </div>
     </div>
