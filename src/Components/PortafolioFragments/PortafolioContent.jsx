@@ -66,7 +66,33 @@ export const PortafolioContent = () => {
           </div>
         </div>
       </div>
-      {/* card 3 */}
+         {/* card 3 */}
+         <div className=" h-52 rounded-xl relative shadow-2xl select-none z-10">
+        <div className=" w-full h-full  bg-cover bg-center ">
+          <img
+            className=" h-full bg-cover w-full  bg-center rounded-xl"
+            src={Kimi}
+            alt=""
+          />
+        </div>
+        <div className="bg-black absolute rounded-xl top-0 w-full h-full  z-50 transition-all opacity-0 hover:opacity-70  flex flex-col justify-end">
+          <div className="text-white p-3 text-start ">
+            <span className="text-xl uppercase font-bold">
+              InventariosJS {" "}
+            </span>
+            <h2 className="mb-4">HTML, angular, Css, Bootstrap,Spring boot,Mysql</h2>
+            <div className="flex gap-3">
+              <Link to="https://kimi-decoraciones.vercel.app/" target="_blank" className=" text-black bg-gray-300 rounded-xl text-3xl p-1  ">
+                <RiLinkM />
+              </Link>
+              <Link to="https://github.com/Santiago825/Kimi_Decoraciones" target="_blank" className=" text-black bg-gray-300 rounded-xl text-3xl p-1  ">
+                <RiGithubFill />
+              </Link>
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* card 4 */}
       <div className=" h-52 rounded-xl relative shadow-2xl select-none z-10">
         <div className=" w-full h-full  bg-cover bg-center ">
           <img
@@ -92,7 +118,7 @@ export const PortafolioContent = () => {
           </div>
         </div>
       </div>
-      {/* card 4 */}
+      {/* card 5 */}
       <div className=" h-52 rounded-xl relative shadow-2xl select-none z-10">
         <div className=" w-full h-full  bg-cover bg-center ">
           <img
@@ -118,7 +144,7 @@ export const PortafolioContent = () => {
           </div>
         </div>
       </div>
-      {/* card 5 */}
+      {/* card 6 */}
       <div className=" h-52 rounded-xl relative shadow-2xl  select-none z-10">
         <div className=" w-full h-full  bg-cover bg-center ">
           <img
@@ -144,7 +170,7 @@ export const PortafolioContent = () => {
           </div>
         </div>
       </div>
-      {/* card 6 */}
+      {/* card 7 */}
       <div className=" h-52 rounded-xl relative shadow-2xl select-none">
         <div className=" w-full h-full  bg-cover bg-center ">
           <img
