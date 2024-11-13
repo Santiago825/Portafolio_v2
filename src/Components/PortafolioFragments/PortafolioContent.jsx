@@ -4,12 +4,14 @@ import port1 from "../../accest/Img/Img_portafolio/portsV2_1.png";
 import Dashboard from "../../accest/Img/Img_portafolio/Dashboard.png";
 import pokedex from "../../accest/Img/Img_portafolio/Login-pokedex.png";
 import Kimi from "../../accest/Img/Img_portafolio/Inicio-Kimi.png";
+import inventariojs from "../../accest/Img/Img_portafolio/inventariojs.png";
+
 import portV1 from "../../accest/Img/Img_portafolio/port_v1.png";
 import villa from "../../accest/Img/Img_portafolio/Villa.png";
 
 
 
-import { RiLinkM , RiGithubFill} from "react-icons/ri";
+import { RiLinkM , RiGithubFill,RiGithubLine} from "react-icons/ri";
 
 export const PortafolioContent = () => {
   return (
@@ -71,7 +73,7 @@ export const PortafolioContent = () => {
         <div className=" w-full h-full  bg-cover bg-center ">
           <img
             className=" h-full bg-cover w-full  bg-center rounded-xl"
-            src={Kimi}
+            src={inventariojs}
             alt=""
           />
         </div>
@@ -80,13 +82,16 @@ export const PortafolioContent = () => {
             <span className="text-xl uppercase font-bold">
               InventariosJS {" "}
             </span>
-            <h2 className="mb-4">HTML, angular, Css, Bootstrap,Spring boot,Mysql</h2>
+            <h2 className="mb-4">HTML, angular, Css, Bootstrap, Mysql, Spring boot</h2>
             <div className="flex gap-3">
-              <Link to="https://kimi-decoraciones.vercel.app/" target="_blank" className=" text-black bg-gray-300 rounded-xl text-3xl p-1  ">
+              {/* <Link to="https://kimi-decoraciones.vercel.app/" target="_blank" className=" text-black bg-gray-300 rounded-xl text-3xl p-1  ">
                 <RiLinkM />
-              </Link>
-              <Link to="https://github.com/Santiago825/Kimi_Decoraciones" target="_blank" className=" text-black bg-gray-300 rounded-xl text-3xl p-1  ">
+              </Link> */}
+              <Link to="https://github.com/Santiago825/INVENTARIOJS" target="_blank" className=" text-black bg-gray-300 rounded-xl text-3xl p-1  ">
                 <RiGithubFill />
+              </Link>
+              <Link to="https://github.com/Santiago825/INVENTARIOJS_BACKEND" target="_blank" className=" text-black bg-gray-300 rounded-xl text-3xl p-1  ">
+                <RiGithubLine />
               </Link>
             </div>
           </div>

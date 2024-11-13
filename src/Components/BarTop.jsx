@@ -23,7 +23,7 @@ export const BarTop = (props) => {
         </div>
 
         <h2 className=" lg:text-3xl  hidden lg:flex">JS</h2>
-        <h2 className="text-2xl font-serif">Desarrollador Web</h2>
+        <h2 className="text-2xl font-serif">Web Developer</h2>
         <MaterialUISwitch onClick={props.Mode} />
       </div>
     </div>
