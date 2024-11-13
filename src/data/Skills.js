@@ -7,7 +7,7 @@ export const skills = [
                 img: "https://raw.githubusercontent.com/Santiago825/Portafolio_v2/main/src/accest/Img/Skills/css.png",
             },
             {
-                img: "https://raw.githubusercontent.com/Santiago825/Portafolio_v2/main/src/accest/Img/skills/angularjs.png",
+                img: "https://raw.githubusercontent.com/Santiago825/Portafolio_v2/refs/heads/main/src/accest/Img/Skills/angularjs.png",
             },
             {
                 img: "https://raw.githubusercontent.com/Santiago825/Portafolio_v2/main/src/accest/Img/Skills/react.png",
